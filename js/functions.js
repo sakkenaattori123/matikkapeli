@@ -23,7 +23,7 @@ addEventListener("DOMContentLoaded", () => {
 document.querySelector('button').addEventListener('click',() => {
     const answer = Number(document.querySelector('input').value)
     const correctAnswer = rand_num1 + rand_num2
-
+    
     if (answer === correctAnswer) {
         alert('Correct!')
         correctCount++
